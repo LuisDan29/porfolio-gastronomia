@@ -4,13 +4,8 @@ import { createRoot } from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 
-import App from './App.tsx';
-
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-const router = createBrowserRouter([
-  { path: "/", element: <App /> }
-])
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
