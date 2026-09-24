@@ -13,16 +13,16 @@ function Hero() {
       </div>
       <div className="row p-0">
         <div className="col-1 p-0 offset-7">
-          <span class="material-symbols-outlined arrow-icon1 text-primary">arrow_outward</span>
+          <span className="material-symbols-outlined arrow-icon1 text-primary">arrow_outward</span>
         </div>
       </div>
       <div className="row">
         <div className="col-8 p-0 offset-2 d-flex flex-row align-items-end">
           <p className="text2 m-0 fs-2 text-primary">CONHEÇA NOSSO<br/>TRABALHO.</p>
-          <span class="material-symbols-outlined ms-5 arrow-icon2 text-primary">arrow_outward</span>
+          <span className="material-symbols-outlined ms-5 arrow-icon2 text-primary">arrow_outward</span>
         </div>
-        <div className="col-2">
-          <div className="hero-image1 p-0" />
+        <div className="col-2 p-0">
+          <div className="hero-image1" />
         </div>
       </div>
       <div className="row">

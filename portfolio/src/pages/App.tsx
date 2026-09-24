@@ -1,3 +1,4 @@
+//import NewHero from "../components/NewHero/NewHero";
 import Hero from "../components/Hero/Hero";
 
 function App() {
