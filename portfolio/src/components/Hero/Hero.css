@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'FreeSansBold';
-    src: url('src/assets/fonts/Free Sans Bold/FreeSansBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'FreeSansBold';
+  src: url('src/assets/fonts/Free Sans Bold/FreeSansBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 .hero-title {
@@ -12,10 +12,36 @@
   letter-spacing: 0.2rem;
 }
 
-.text {
+.text1 {
   line-height: 120%;
 }
 
-.arrow-icon {
+.text2 {
+  font-family: 'FreeSansBold', sans-serif;
+  font-weight: bold;
+  line-height: 120%;
+  letter-spacing: 0.05rem;
+}
+
+.arrow-icon1 {
   transform: rotateX(180deg);
+}
+
+.arrow-icon2 {
+  transform: rotateX(180deg);
+  font-size: 3rem;
+}
+
+.hero-image1 {
+  background: url("src/assets/images/IMG-20260923-WA0042.jpg"); 
+  background-size: cover; 
+  background-position: center 38%;
+  aspect-ratio: 1;
+}
+
+.hero-image2 {
+  background: url("src/assets/images/IMG-20260923-WA0047.jpg"); 
+  background-size: cover; 
+  background-position: center 65%;
+  aspect-ratio: 1;
 }
