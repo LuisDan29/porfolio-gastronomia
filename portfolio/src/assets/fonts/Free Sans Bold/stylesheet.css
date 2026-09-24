@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Free Sans Bold';
+    src: url('FreeSansBold.eot');
+    src: url('FreeSansBold.eot?#iefix') format('embedded-opentype'),
+         url('FreeSansBold.woff') format('woff'),
+         url('FreeSansBold.ttf') format('truetype'),
+         url('FreeSansBold.svg#Free Sans Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
