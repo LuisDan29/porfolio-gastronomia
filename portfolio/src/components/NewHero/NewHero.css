@@ -9,7 +9,7 @@
     font-family: 'FreeSansBold', sans-serif;
     font-weight: bold;
     font-size: 11rem;
-    line-height: 95%;
+    letter-spacing: 0.2rem;
 }
 
 .hero-image {
@@ -17,8 +17,4 @@
     background-size: cover;
     background-position: center top;
     height: 70vh;
-}
-
-.hero-section {
-    height: 100vh;
 }

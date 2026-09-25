@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'FreeSansBold';
+    src: url('src/assets/fonts/Free Sans Bold/FreeSansBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.gallery-title {
+  font-family: 'FreeSansBold', sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.gallery {
+  columns: 4 250px;
+  column-gap: 16px;
+}
+
+.gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

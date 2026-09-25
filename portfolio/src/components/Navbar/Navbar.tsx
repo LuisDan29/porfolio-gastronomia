@@ -3,7 +3,7 @@ import "./Navbar.css"
 
 function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg">
+    <nav className="navbar sticky-top bg-body navbar-expand-lg">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand navbar-logo text-primary">3TB</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
